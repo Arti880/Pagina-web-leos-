@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: grupo-leos
+    runtime: static
+    buildCommand: echo "Static website ready"
+    staticPublishPath: dist
